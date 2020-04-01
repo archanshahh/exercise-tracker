@@ -8,6 +8,7 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "concurrently": "^5.1.0",
+    "heroku": "^7.39.2",
     "react": "^16.12.0",
     "react-datepicker": "^2.14.0",
     "react-dom": "^16.12.0",
@@ -16,7 +17,7 @@
   },
   "scripts": {
     "start": "concurrently \"cd backend && npm start\" \"react-scripts start\"",
-    "build": "concurrently \"cd backend && npm start\" \"react-scripts build\"",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
